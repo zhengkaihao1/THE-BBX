@@ -1,0 +1,109 @@
+body{
+	height: 96vh;
+	margin-right: 600px;
+	margin-top: 30px;
+	background: url(bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+.blank{
+	width: 700px;
+	height: 480px;
+	background: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: 1%;
+	background-color: #fdfdfd;
+	border-radius: 18px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	box-shadow: -19px -13px 7px rgb(202,225,247,0.95);
+	z-index: 2;
+}
+.chao{
+	margin: 20px 0 0 580px;
+	font-size: 19px;
+	color: #000000;
+	text-decoration:none;
+	position: absolute;
+}
+.chaolu{
+	margin: 20px 0 0 450px;
+	font-size: 19px;
+	color: #1e8ded;
+	text-decoration:none;
+	position: absolute;
+}
+/*a:link,
+a:visited {
+color:#000000;
+}*/
+a:hover,
+a:active {
+color:#1e8ded;
+}
+.people{
+	margin: -5px 0 0 477px;
+}
+.people img{
+	width: 108px;
+}
+.hanzi{
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin: 8px 0 0 295px;
+}
+.hanzi>input{
+	margin-bottom: 10px;
+	background-color: whitesmoke;
+	width: 195px;
+	height: 21px;
+	border-style: solid; border-color: #dedcdc;
+}
+.remember{
+	margin: 0 0 0 -174px;
+	margin-top: 5px;
+}
+.fg{
+	margin: -20px 0 0 230px;
+}
+.forget{
+	text-decoration: none;
+}
+.denglu>input{
+	margin-top: 20px;
+	width: 298px;
+	height: 43px;
+	background-color: #2b83cc;
+	border-color: #2b83cc;
+	border-style: solid;
+	color: #fafaff;
+	margin-left: 27px;
+	font-size: 18px;
+}
+.three{
+	margin: 25px 0 0 -190px;
+}
+.QQlogo{
+	margin: 0 0 0 -170px;
+}
+.QQlogo img{
+	width: 60px;
+}
+.Wechatlogo{
+	margin: -65px 0 0 30px;
+}
+.Wechatlogo img{
+	width: 61px;
+}
+.weibo{
+	margin: -65px 0 0 230px;
+}
+.weibo img{
+	width: 61px;
+}

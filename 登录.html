@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BBX登录</title>
+		<style>
+			span{
+				font-size: 13px;
+			}
+		</style>
+		<link href="登录区.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="blank">
+			<div>
+			<a class="chao" href="注册.html" title="注册">注册</a>
+			<a class="chaolu" href="#" title="登录">登录</a>
+			</div>
+			<div>
+				<br/>
+				<br/>
+			<hr width="350" hight="150" align="right">
+			</div>
+			<div class="people">
+				<img src="人像.png" />
+			</div>
+			<form class="hanzi">
+				账号&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" id="dengluzh" name="IP"/>
+				<br/>
+				密码&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" id="denglumima" name="IP"/>
+				<div class="remember">
+					<input type="checkbox" name="rem" value="5" checked="checked"/>
+					<label>记住密码</label>
+				</div>
+				<div class="fg">
+					<a class="forget" href="#" title="忘记密码" target="_self"> 忘记密码?</a>
+				</div>
+				<div class="denglu">
+					<input onclick="DL()" type="submit"value=" 登		  录" name="lastdenglu" />
+				</div>
+				<div class="three">
+					<label>第三方登录</label>
+				</div>
+				<div>
+					<hr width="335" hight="150" align="right">
+				</div>
+				<div class="QQlogo">
+					<img src="QQ图标.png" />
+				</div>
+				<div class="Wechatlogo">
+					<img src="微信图标.png" />
+				</div>
+				<div class="weibo">
+					<img src="微博图标.png" />
+				</div>
+			</form>
+		</div>
+		<script >
+		function DL() {
+		if( document.getElementById('dengluzh').value==''){
+		alert("账号不能为空");
+		}
+		if( document.getElementById('denglumima').value==''){
+		alert("密码不能为空");
+		}
+		}
+		</script>
+	</body>
+</html>

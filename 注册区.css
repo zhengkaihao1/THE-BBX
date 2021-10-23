@@ -1,0 +1,97 @@
+body{
+	height: 96vh;
+	margin-right: 600px;
+	margin-top: 30px;
+	background: url(bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.blank{
+	width: 700px;
+	height: 480px;
+	background: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: 1%;
+	background-color: #fdfdfd;
+	border-radius: 18px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	box-shadow: -19px -13px 7px rgb(202,225,247,0.95);
+}
+.word{
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin: 35px 0 0 310px;
+}
+.word>input{
+	margin-bottom: 10px;
+	background-color: whitesmoke;
+	width: 190px;
+	height: 21px;
+	border-style: solid; border-color: #dedcdc;
+}
+.gender{
+	margin: 0 0 0 -110px;
+}
+.china{
+	margin: 10px 0 0 -27px;	
+}
+.china>select{
+	background-color: whitesmoke;
+}
+.hobby{
+	margin: 12px 0 0 38px;
+}
+.tou{
+	margin: 14px 0 0 -26px;
+}
+.tou>input{
+	margin-left: 15px;
+}
+.yzm{
+	margin: 5px 0 0 -31px;
+}
+.yzm>input{
+	margin-left: 26px;
+	height: 21px;
+	background-color: whitesmoke;
+	border-style: solid; border-color: #dedcdc;
+}
+.zhuce>input{
+	margin-top: 25px;
+	width: 299px;
+	height: 42px;
+	margin-left: 22px;
+	background-color: #2b83cc;
+	color: #fafaff;
+	border-color: #2b83cc;
+	border-style: solid;
+	font-size: 18px;
+}
+.chao{
+	margin: 20px 0 0 580px;
+	font-size: 19px;
+	color: #1e8ded;
+	text-decoration:none;
+	position: absolute;
+}
+.chaolu{
+	margin: 20px 0 0 450px;
+	font-size: 19px;
+	color: #000000;
+	text-decoration:none;
+	position: absolute;
+}
+/*a:link,
+a:visited{
+color:#1e8ded;
+}*/
+a:hover,
+a:active{
+color:#1e8ded;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>BBX注册</title>
+		<style>
+			span {
+				font-size: 13px;
+			}
+		</style>
+		<link href="注册区.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="blank">
+			<div>
+			<a class="chao" href="#" title="注册">注册</a>
+			<a class="chaolu" href="登录.html" title="登录">登录</a>
+			</div>
+			<div>
+				<br/>
+				<br/>
+				<hr width="350" hight="80" align="right">
+			</div>
+			<form class="word"> 
+			  账号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <input type="text" name="myID" id="zhucezh">
+			  <br/>
+			  密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <input type="password" name="pass" id="zhucemima">
+			  <br/>
+			  确认密码&nbsp;&nbsp;&nbsp;
+			  <input type="password" id="realmima"/>
+			  <br/>
+			  <div class="gender">
+			  <label>性别:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			          <label>男</label>
+			          <input type="radio" value="1" name="gender" checked="checked"/>
+			          <label>女</label>
+			          <input type="radio" value="2" name="gender" />
+			  </div>
+			  <div class="china">
+				  <label>所在地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				  <select> <option value="中国" selected="selected">中国</option> </select>
+				  <select> <option value="韶关" selected="selected">韶关</option> </select>
+				  <select> <option value="浈江区" selected="selected">浈江区</option> 
+						   <option value="武江区">武江区</option>
+						   <option value="曲江区">曲江区</option>
+						   <option value="乐昌市">乐昌市</option>
+						   <option value="南雄市">南雄市</option>
+						   <option value="始兴县">始兴县</option>
+						   <option value="仁化县">仁化县</option>
+						   <option value="翁源县">翁源县</option>
+						   <option value="新丰县">新丰县</option>
+						   <option value="其他">其他</option>
+				  </select>
+			  </div>
+			  <div class="hobby">
+				  <label>兴趣爱好 &nbsp;</label>	
+				  <input type="checkbox" name="study" value="1" checked="checked"/>
+						<label>学习</label>						
+				  <input type="checkbox" name="sport" value="2"/>
+						<label>运动</label>					
+				  <input type="checkbox" name="ship" value="3"/>
+						<label>旅游</label>						
+				  <input type="checkbox" name="photo" value="4" checked="checked"/>
+						<label>摄影</label>
+			  </div>
+			  <div class="tou">
+				  <label>上传头像</label>
+				  <input type="submit" value="选择文件" name="upload" <p><span>&nbsp;&nbsp;&nbsp;未选择任何文件</span></p>
+			  </div>
+			  <div class="yzm">
+				  <label>验证码</label>
+				  <input type="text" placeholder="请输入手机所收验证码"/>
+			  </div>
+			  <div class="zhuce">
+				  <input onclick="ZC()" type="submit" value="注		册" name="post" />	
+			  </div>
+			</form>
+			<script >
+			function ZC() {
+			if( document.getElementById('zhucezh').value=='')
+			{
+				alert("账号不能为空");
+			}
+			if( document.getElementById('zhucemima').value=='')
+			{
+				alert("密码不能为空");
+			}
+			{
+				alert("确认密码不能为空")
+			}
+			}
+			</script>
+		</div>
+	</body>
+</html>
